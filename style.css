@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainWrapper {
+    background-image: url(images/imagesbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.hoverClass {
+    transition:  all 2s;
+}
+.hoverClass:hover{
+    background-color: rgb(199, 199, 13) !important;
+    color: #948f8f !important;
+    border-radius: 0 !important;
+
+}
+.sec1Img {
+    background-image: url(images/tacowine.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10% !important;
+    height: 50vh;
+}
+.heightControl {
+    height: 23vh !important;
+}
+.imgez {
+    width: 100%;
+    height: 30vh;
+}
+.smth-1 {
+    height: 100% !important;
+    width: 100% !important;
+}
